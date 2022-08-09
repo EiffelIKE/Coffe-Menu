@@ -1,27 +1,23 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
+  env: {
+    browser: true,
+    es2021: true
   },
-  'extends': [
+  extends: [
     'plugin:react/recommended',
-    'google',
+    'standard'
   ],
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
     },
-    'ecmaVersion': 'latest',
-    'sourceType': 'module',
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
-  'plugins': [
-    'react',
+  plugins: [
+    'react'
   ],
-  'rules': {
-    'linebreak-style': ["error", "windows"],
-    'semi': ["error", "never"],    
-    "comma-dangle": ["error", "never"],
-    
+  rules: {
     "react/prop-types": 0
-  },
-};
+  }
+}
