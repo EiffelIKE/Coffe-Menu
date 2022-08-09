@@ -1,0 +1,7 @@
+.titles{
+    text-align: center;
+    border-bottom: 0.2em solid brown;
+}
+.titles p{
+    font-style: italic;
+}

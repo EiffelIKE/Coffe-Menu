@@ -1,19 +1,35 @@
 import React from 'react'
-import Card from './components/Card'
+import Menu from './pages/Menu'
 
 const App = () => {
-  const data = {
+  const data = [{
     id: 1,
-    img: 'https://s3.amazonaws.com/uifaces/faces/twitter/csswizardry/128.jpg',
-    first_name: 'Jeremy',
-    last_name: 'Davis',
-    status: 'At workasdasdadsd ',
-    available: true
-  }
+    name: 'French Vanilla',
+    price: '2.55',
+    available: 'true'
+  },
+  {
+    id: 2,
+    name: 'Caramel Macchiato',
+    price: '3.75',
+    available: 'false'
+  },
+  {
+    id: 3,
+    name: 'Pumpkin Spice',
+    price: '3.50',
+    available: 'true'
+  },
+  {
+    id: 4,
+    name: 'Hazelnut',
+    price: '4.00',
+    available: 'true'
+  }]
   return (
-    <div >
-      <Card data= {data}/>
-    </div>
+    <>
+      <Menu data={data}/>
+    </>
   )
 }
 

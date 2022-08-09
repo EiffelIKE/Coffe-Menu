@@ -1,0 +1,11 @@
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin: 2em auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.header{
+    text-align: center;
+    display: block;
+}
