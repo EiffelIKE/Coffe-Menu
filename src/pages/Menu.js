@@ -3,10 +3,12 @@ import ProductContainer from '../components/ProductContainer'
 import Title from '../components/Title'
 import useFetchAPI from '../hooks/useFetchAPI'
 import { url } from '../config'
+import { useNavigate } from 'react-router-dom'
 import '../components/styles/Menu.css'
 
 const Menu = () => {
   const { data } = useFetchAPI(url + 'Types')
+  const navigate = useNavigate()
   return (
         <div className='menu'>
             <Title/>
@@ -19,6 +21,10 @@ const Menu = () => {
                 />
               )
             })}
+             <button type="button"
+            className="btn btn-outline-dark go"
+            onClick={() => navigate('/Welcome')}
+            >Back</button>
         </div>
   )
 }

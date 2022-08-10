@@ -2,11 +2,19 @@
     width: 80%;
     background-color: burlywood;
     margin: 0 auto;
-    padding: 20px 20px 0 20px;
+    padding: 20px ;
     max-width: 450px;
     font-size: 1.2rem;
 }
 .header{
     text-align: center;
     display: block;
+}
+.menu .go{
+   width: 30%;
+   
+   margin: 0 35%;
+   font-weight: 600; 
+   color: black;
+   border-color: brown;
 }
