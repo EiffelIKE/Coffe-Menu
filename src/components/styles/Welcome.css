@@ -1,0 +1,26 @@
+.welcome{
+    grid-template-columns: 100%;
+    padding-bottom: 1.75rem;
+    text-align: center;
+}
+.go{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border-color: brown;
+}
+.menu a { 
+    color: black;
+}
+
+.menu a:visited {
+  color: black;
+}
+
+.menu a:hover {
+  color: brown;
+}
+  
+.menu a:active {
+  color: brown;
+}
