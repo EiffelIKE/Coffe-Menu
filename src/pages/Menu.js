@@ -6,12 +6,19 @@ import { url } from '../config'
 import '../components/styles/Menu.css'
 
 const Menu = () => {
-  const { coffee } = useFetchAPI(url)
-  console.log(coffee)
+  const { data } = useFetchAPI(url + 'Types')
   return (
         <div className='menu'>
             <Title/>
-            <ProductContainer data={coffee}/>
+            {data.map((product, index) => {
+              return (
+                <ProductContainer
+                key={product.id}
+                product={product.name}
+                img={product.img}
+                />
+              )
+            })}
         </div>
   )
 }

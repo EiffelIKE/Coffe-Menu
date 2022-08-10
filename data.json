@@ -1,6 +1,18 @@
 
-    {
-        "data":{"Coffee": [
+    {   "Types":[
+            {   
+                "id":1,
+                "name": "Coffee",
+                "img": "https://i.im.ge/2022/08/10/FpuiJL.coffee.jpg"
+            },
+            {    
+                "id":2,
+                "name": "Desserts",
+                "img": "https://i.im.ge/2022/08/10/Fpu9Nx.pie.jpg"
+                
+            }
+        ],
+        "Coffee": [
             
             {
                 "id": 1,
@@ -58,8 +70,8 @@
                 "price": "2.50",
                 "available": "true"
             }
-         
-        ]}
+        ] 
+        
        
     }
 

@@ -1,6 +1,7 @@
 .titles{
     text-align: center;
     border-bottom: 0.2em solid brown;
+    margin-top: -10px;
 }
 .titles p{
     font-style: italic;
