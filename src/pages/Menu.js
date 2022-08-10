@@ -22,7 +22,7 @@ const Menu = () => {
               )
             })}
              <button type="button"
-            className="btn btn-outline-dark go"
+            className="btn btn-outline-dark go align"
             onClick={() => navigate('/Welcome')}
             >Back</button>
         </div>
