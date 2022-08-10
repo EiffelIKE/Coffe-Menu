@@ -10,6 +10,7 @@ const ProductContainer = ({ data }) => {
               <img src={CoffeeImg} alt="Products" />
             </div>
             <ProductList data={data}/>
+            {/* <ProductList data={data}/> */}
         </div>
   )
 }
