@@ -12,10 +12,13 @@
     display: block;
 }
 .menu .go{
-   width: 30%;
-   
-   margin: 0 35%;
+   text-align: center;
+   width: 50%;
+   font-size: 1.5rem;
    font-weight: 600; 
    color: black;
    border-color: brown;
+}
+.align{
+    margin: 0 25%;
 }
