@@ -17,8 +17,10 @@ code {
 }
 body{
   font-family: sans-serif;
+  padding: 20px;
   width: 100vw;
-  height: 100vh;
   background: url('./assets/beans.jpg');
 }
-
+h1,h2{
+  font-family: Impact, serif;
+}

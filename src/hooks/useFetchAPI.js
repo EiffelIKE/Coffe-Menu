@@ -2,16 +2,16 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 
 const useFetchAPI = (url) => {
-  const [coffee, setCofee] = useState([])
+  const [data, setCofee] = useState([])
   // const [dessert, setDessert] = useState([])
   useEffect(() => {
     axios.get(url).then(
       (response) => {
-        setCofee(response.data.Coffee)
+        setCofee(response.data)
       }
     ).catch((error) => alert(error))
   }, [url])
-  return { coffee }
+  return { data }
 }
 
 export default useFetchAPI

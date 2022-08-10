@@ -1,0 +1,10 @@
+.prodContainer{
+    margin-top: 15px;
+    border-bottom: 0.2em solid brown;
+}
+.prodContainer p{
+    font-weight: 600;
+}
+.prodContainer:last-of-type {
+    border-bottom: none;
+}
